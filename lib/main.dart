@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:soccer_app/Features/splash/presentation/views/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Text('data'),
+      home: SplashScreen(),
     );
   }
 }
